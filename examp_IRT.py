@@ -16,9 +16,9 @@ import pandas as pd
 
 # sys.path.append(os.path.join(__dir__, ''))
 
-train_data = pd.read_csv("../../../data/a0910/train.csv")
-valid_data = pd.read_csv("../../../data/a0910/valid.csv")
-test_data = pd.read_csv("../../../data/a0910/test.csv")
+train_data = pd.read_csv("data/a0910/train.csv")
+valid_data = pd.read_csv("data/a0910/valid.csv")
+test_data = pd.read_csv("data/a0910/test.csv")
 
 batch_size = 256
 
